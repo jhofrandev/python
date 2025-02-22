@@ -73,9 +73,13 @@ except ZeroDivisionError:
 
 # Reglas Clave de Si
 '''
-  Indentación: Usa 4 espacios (nunca tabs) para bloques de código (bucles, funciones, etc.).
+  Python utiliza sangría para indicar un bloque de código.
+
+  La sangría se refiere a los espacios al comienzo de una línea de código.
 
   Case Sensitive: variable ≠ Variable.
 
   Snake Case: Para nombres de variables/funciones: mi_variable, calcular_promedio.
 '''
+
+# add this
