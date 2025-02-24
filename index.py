@@ -81,5 +81,3 @@ except ZeroDivisionError:
 
   Snake Case: Para nombres de variables/funciones: mi_variable, calcular_promedio.
 '''
-
-# add this
