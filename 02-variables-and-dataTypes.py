@@ -161,5 +161,3 @@ x = 'hola' # El valor 10 queda sin referencia y puede ser liberado
 
 # _: En el intérprete interactivo, almacena el último resultado evaluado.a
 # __name__: Contiene el nombre del módulo actual
-
-# add this
