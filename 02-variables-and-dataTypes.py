@@ -16,6 +16,15 @@ x = 'Hola'  # ahora x es una cadena
 ################################################################################
 ## Convenciones de Nomenclatura
 ################################################################################
+x = 20
+y = 'Jhon'
+print(type(x)) #int
+print(type(y)) #str
+
+
+################################################################################
+## Convenciones de Nomenclatura
+################################################################################
 
 # Snake case: Usa guiones bajos para separar palabras en nombres de variables.
 nombre_completo = "Juan Pérez"
@@ -100,3 +109,57 @@ def funcion_externa():
     z = 20
   funcion_interna()
   print(z)  # Imprime 20
+
+
+################################################################################
+## Buenas Prácticas
+################################################################################
+
+# Nombres descriptivos: Usa nombres que expliquen el propósito de la variable
+a = 3600 # mal
+segundos_por_hora = 3600 # bien
+
+# Evita variables globales: Limita su uso para reducir efectos secundarios
+
+#Consistencia: Mentén un estilo coherente en todo tu código
+
+# Evita nombres reservador: No uses palabras claves de Python como nombre de variables
+
+# Inicializa tus variables: Asigna un valor inicial antes de usarlas
+
+# Usa type hints (anotaciones de tipo) para mejorar la leginilidad y facilitar el mantenimiento:
+nombre: str = 'Juan'
+edad: int = 30
+
+
+################################################################################
+## Referencias y Objetos
+################################################################################
+
+# En Python, las variables son referencias a onjetos en memoria. Esto es importante para entender el comportamiento de asignación:
+lista1 = [1, 2, 3]
+lista2 = lista1 # lista2 referencia al mismo objeto que lista1
+lista2.append(4)
+print(lista1)  # Muestra [1, 2, 3, 4]
+
+# Para crear una copia independiente:
+lista2 = lista1.copy()  # o list(lista1) o lista1[:]
+
+
+################################################################################
+## Garbage Collection
+################################################################################
+
+# Python maneja automáticamente la memoria. Cuando una variable ya no tiene referencias, el recolector de basura libera la memoria:
+x = 10
+x = 'hola' # El valor 10 queda sin referencia y puede ser liberado
+
+
+################################################################################
+## Variables Especiales
+################################################################################
+
+# _: En el intérprete interactivo, almacena el último resultado evaluado.a
+# __name__: Contiene el nombre del módulo actual
+
+# add this
