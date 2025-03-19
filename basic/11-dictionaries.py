@@ -377,3 +377,5 @@ usuarios_por_roles = {
 # Buscar usuarios con ciertos roles
 roles_buscados = frozenset(["admin", "editor"])
 print(f"Usuarios con roles {roles_buscados}: {usuarios_por_roles[roles_buscados]}")
+
+# add this
