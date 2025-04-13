@@ -2,8 +2,6 @@
 # Administradores de Contexto en Python
 ################################################################################
 
-# add this
-
 
 '''
 Los administradores de contexto son una característica de Python que permite
